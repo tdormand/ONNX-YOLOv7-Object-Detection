@@ -1,4 +1,6 @@
 opencv-python
 imread-from-url
-onnxruntime-gpu
+# torch==2.2.2+cu121 pip install --upgrade torch==2.2.2+cu121 -f https://download.pytorch.org/whl/torch_stable.html
+# torchvision==0.17.2+cu121  pip install --upgrade torchvision==0.17.2+cu121 -f https://download.pytorch.org/whl/torch_stable.html   
+onnxruntime-gpu==1.17. # pip install onnxruntime-gpu --extra-index-url https://aiinfra.pkgs.visualstudio.com/PublicPackages/_packaging/onnxruntime-cuda-12/pypi/simple/
 cap-from-youtube
